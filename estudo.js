@@ -38,3 +38,5 @@ function calcula(){
     let res = val * (1+(j/100));
     
     document.write("Resultado: "+res);
+}
+
