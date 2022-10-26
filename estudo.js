@@ -30,6 +30,11 @@ function quadrado(){
     }
 }
 
+
+function moeda(atual)
+     return atual.toLocaleString('pr-br'.{})
+    
+
 function calcula(){
     let val = document.getElementById("valor").value;
     let j = document.getElementById("juros").value;
