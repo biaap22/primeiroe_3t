@@ -1,7 +1,5 @@
 
 
-
-
 body {
     margin: 0;
     padding: 0;
@@ -22,6 +20,23 @@ body {
     color: rgba(0, 0, 0, 0.739);
     border-radius: 10px;
     padding: 8px;
+}
+
+.calcF {
+    display: none;
+}
+
+#calcFin {
+    display: none;
+}
+
+#calcFin:checked + .calculadora .calcF {
+    display: block;
+}
+
+.calculadora input:focus {
+    background: white;
+    color: black;
 }
 
 #btnCalc {
@@ -53,3 +68,6 @@ body {
     border-color: orange;
     border-width: 3px;
 } 
+
+
+
