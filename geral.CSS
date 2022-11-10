@@ -1,12 +1,19 @@
-
-
 body {
     margin: 0;
     padding: 0;
 }
 
 .calculadora {
-    background: rgb(255, 244, 145);
+    background: pink;
+    width: 200px;
+    color: black;
+    padding: 20px;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 10px 10px rgba(216, 201, 71, 0.808);
+}
+.calculadoraESG {
+    background:blueviolet;
     width: 200px;
     color: black;
     padding: 20px;
@@ -46,13 +53,13 @@ body {
 }
 
 #btnCalc:hover {
-    background: orange;
+    background:brown;
     color: white;
     cursor: pointer;
 }
 
 #psTotal {
-    background: rgb(243, 219, 0);
+    background: black;
     color: white;
     padding: 8px;
     margin-bottom: 10px;
@@ -61,13 +68,12 @@ body {
 
 .spmes {
     width: 100%;
-    background: rgb(243, 219, 0);
-    lighting-color: orange;
+    background: purple;
+    lighting-color: blue;
     border-radius: 20px;
     border-style: dashed;
-    border-color: orange;
+    border-color:silver;
     border-width: 3px;
 } 
-
 
 
